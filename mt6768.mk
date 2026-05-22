@@ -57,6 +57,11 @@ PRODUCT_PACKAGES += \
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    fstab.mt6768 \
+    fstab.mt6768.vendor_ramdisk
+
 # Recovery
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.recovery.mt6768.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.mt6768.rc
