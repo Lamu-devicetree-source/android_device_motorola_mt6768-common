@@ -78,6 +78,11 @@ vendor/lib64/vendor.mediatek.hardware.pq_aidl-V7-ndk.so
 # Ladder
 vendor/lib64/libladder.so
 
+# MMS
+vendor/bin/hw/vendor.mediatek.hardware.mms-service
+vendor/etc/init/vendor.mediatek.hardware.mms-service.rc
+vendor/lib64/vendor.mediatek.hardware.mms-V1-ndk.so
+
 # Modules
 vendor/etc/init.insmod.mt6768.cfg
 
