@@ -103,6 +103,10 @@ TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/init/fstab.mt6768
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_USERIMAGES_USE_F2FS := true
 
+# Properties
+TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/system_ext.prop
+TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
+
 # SEPolicy
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 
