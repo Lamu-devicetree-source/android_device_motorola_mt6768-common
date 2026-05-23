@@ -49,6 +49,20 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     chipinfo
 
+# Display
+PRODUCT_PACKAGES += \
+    android.hardware.memtrack-service.mediatek
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml
+
+PRODUCT_PACKAGES += \
+    android.hardware.vulkan.compute-0.prebuilt.xml \
+    android.hardware.vulkan.level-1.prebuilt.xml \
+    android.hardware.vulkan.version-1_3.prebuilt.xml \
+    android.software.opengles.deqp.level-2024-03-01.prebuilt.xml \
+    android.software.vulkan.deqp.level-2024-03-01.prebuilt.xml
+
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
