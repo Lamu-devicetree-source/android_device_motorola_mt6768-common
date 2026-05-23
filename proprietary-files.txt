@@ -1,5 +1,11 @@
 # Unpinned blobs from motorola/lamu_g/lamu:15/VVTA35.51-137/7eabca:user/release-keys
 
+# AEE
+vendor/lib64/libaedv.so
+
+# Ladder
+vendor/lib64/libladder.so
+
 # Modules
 vendor/etc/init.insmod.mt6768.cfg
 
