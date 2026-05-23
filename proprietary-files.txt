@@ -1,1 +1,27 @@
-#
+# Unpinned blobs from motorola/lamu_g/lamu:15/VVTA35.51-137/7eabca:user/release-keys
+
+# Touch
+vendor/firmware/ILITEK_FW.hex
+vendor/firmware/ILITEK_FW.hex:recovery/root/vendor/firmware/ILITEK_FW.hex
+vendor/firmware/chipone_firmware.bin
+vendor/firmware/chipone_firmware.bin:recovery/root/vendor/firmware/chipone_firmware.bin
+vendor/firmware/chipone_limit.bin
+vendor/firmware/chipone_limit.bin:recovery/root/vendor/firmware/chipone_limit.bin
+vendor/firmware/dijin_hdl_firmware.img
+vendor/firmware/dijin_hdl_firmware.img:recovery/root/vendor/firmware/dijin_hdl_firmware.img
+vendor/firmware/dijin_hdl_firmware_test.img
+vendor/firmware/dijin_hdl_firmware_test.img:recovery/root/vendor/firmware/dijin_hdl_firmware_test.img
+vendor/firmware/dijin_novatek_ts_fw.bin
+vendor/firmware/dijin_novatek_ts_fw.bin:recovery/root/vendor/firmware/dijin_novatek_ts_fw.bin
+vendor/firmware/dijin_novatek_ts_mp.bin
+vendor/firmware/dijin_novatek_ts_mp.bin:recovery/root/vendor/firmware/dijin_novatek_ts_mp.bin
+vendor/firmware/gt1151_default_firmware2.img
+vendor/firmware/gt1151_default_firmware2.img:recovery/root/vendor/firmware/gt1151_default_firmware2.img
+vendor/firmware/tianma_hdl_firmware.img
+vendor/firmware/tianma_hdl_firmware.img:recovery/root/vendor/firmware/tianma_hdl_firmware.img
+vendor/firmware/tianma_hdl_firmware_test.img
+vendor/firmware/tianma_hdl_firmware_test.img:recovery/root/vendor/firmware/tianma_hdl_firmware_test.img
+vendor/firmware/tianma_novatek_ts_fw.bin
+vendor/firmware/tianma_novatek_ts_fw.bin:recovery/root/vendor/firmware/tianma_novatek_ts_fw.bin
+vendor/firmware/tianma_novatek_ts_mp.bin
+vendor/firmware/tianma_novatek_ts_mp.bin:recovery/root/vendor/firmware/tianma_novatek_ts_mp.bin
