@@ -60,7 +60,8 @@ TARGET_BOARD_PLATFORM := mt6768
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.mt6768 \
-    fstab.mt6768.vendor_ramdisk
+    fstab.mt6768.vendor_ramdisk \
+    ueventd.mt6768.rc
 
 # Recovery
 PRODUCT_COPY_FILES += \
