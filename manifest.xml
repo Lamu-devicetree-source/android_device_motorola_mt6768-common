@@ -24,4 +24,12 @@
         <version>7</version>
         <fqname>IPictureQuality_AIDL/default</fqname>
     </hal>
+    <hal format="aidl">
+        <name>vendor.trustonic.tee</name>
+        <fqname>ITee/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.trustonic.tui</name>
+        <fqname>ITui/default</fqname>
+    </hal>
 </manifest>

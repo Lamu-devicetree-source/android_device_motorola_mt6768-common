@@ -167,6 +167,18 @@ vendor/lib64/libwifinvram.so
 vendor/lib64/libwifinvramdata.so
 vendor/lib64/vendor.mediatek.hardware.nvram-V1-ndk.so
 
+# TEE
+vendor/bin/hw/vendor.trustonic.tee-service
+vendor/bin/mcDriverDaemon
+vendor/bin/mtk_storageproxyd
+vendor/etc/init/mtk_storageproxyd.rc
+vendor/etc/init/tee.rc
+vendor/etc/init/vendor.trustonic.tee-service.rc
+vendor/lib64/libMcClient.so
+vendor/lib64/libmtk_bsg.so
+vendor/lib64/vendor.trustonic.tee-V1-ndk.so
+vendor/lib64/vendor.trustonic.tui-V1-ndk.so
+
 # Touch
 vendor/firmware/ILITEK_FW.hex
 vendor/firmware/ILITEK_FW.hex:recovery/root/vendor/firmware/ILITEK_FW.hex

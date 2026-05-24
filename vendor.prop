@@ -149,5 +149,8 @@ ro.surface_flinger.primary_display_orientation=ORIENTATION_0
 ro.surface_flinger.supports_background_blur=0
 vendor.sf.hwc_repaint_fmt=3
 
+# TEE
+ro.vendor.mtk_trustonic_tee_support=1
+
 # USB
 ro.vendor.usb.kpoc_adb=0
