@@ -74,6 +74,11 @@ vendor/lib64/vendor.mediatek.hardware.pq_aidl-V2-ndk.so
 vendor/lib64/vendor.mediatek.hardware.pq_aidl-V4-ndk.so
 vendor/lib64/vendor.mediatek.hardware.pq_aidl-V7-ndk.so
 
+# Gatekeeper
+vendor/bin/hw/android.hardware.gatekeeper-service.trustonic
+vendor/etc/init/android.hardware.gatekeeper-service.trustonic.rc
+vendor/etc/vintf/manifest/android.hardware.gatekeeper-service.trustonic.xml
+
 # Ladder
 vendor/lib64/libladder.so
 
