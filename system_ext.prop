@@ -1,0 +1,7 @@
+# Audio
+ro.audio.ihaladaptervendorextension_enabled=true
+ro.config.alarm_vol_default=6
+ro.config.alarm_vol_steps=7
+ro.config.media_vol_default=5
+ro.config.vc_call_vol_default=6
+ro.config.vc_call_vol_steps=8
