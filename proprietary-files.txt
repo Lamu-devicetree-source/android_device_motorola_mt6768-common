@@ -77,6 +77,13 @@ vendor/lib64/vendor.mediatek.hardware.pq_aidl-V7-ndk.so
 # Ladder
 vendor/lib64/libladder.so
 
+# Keymint
+vendor/bin/hw/android.hardware.security.keymint@3.0-service.trustonic
+vendor/etc/init/android.hardware.security.keymint@3.0-service.trustonic.rc
+vendor/etc/vintf/manifest/android.hardware.security.keymint-service.trustonic.xml
+vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.trustonic.xml
+vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.trustonic.xml
+
 # MMS
 vendor/bin/hw/vendor.mediatek.hardware.mms-service
 vendor/etc/init/vendor.mediatek.hardware.mms-service.rc
