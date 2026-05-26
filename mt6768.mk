@@ -133,6 +133,21 @@ PRODUCT_PACKAGES += \
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power-service.lineage-libperfmgr \
+    libmtkperf_client \
+    libmtkperf_client_vendor \
+    libperfctl_vendor \
+    libpowerhalwrap \
+    libpowerhalwrap_vendor
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
+PRODUCT_PACKAGES += \
+    vendor.mediatek.hardware.mtkpower@1.0.vendor
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.mt6768 \
@@ -158,7 +173,11 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/mediatek
+    hardware/google/interfaces \
+    hardware/google/pixel \
+    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/mediatek \
+    hardware/mediatek/libmtkperf_client
 
 # Verified Boot
 PRODUCT_PACKAGES += \
