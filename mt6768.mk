@@ -61,6 +61,18 @@ TARGET_BOARD_PLATFORM := mt6768
 PRODUCT_PACKAGES += \
     fstab.mt6768 \
     fstab.mt6768.vendor_ramdisk \
+    init.cgroup.rc \
+    init.connectivity.common.rc \
+    init.connectivity.rc \
+    init.insmod.sh \
+    init.modem.rc \
+    init.mt6768.rc \
+    init.mt6768.usb.rc \
+    init.mtkgki.rc \
+    init.project.rc \
+    init.recovery.mt6768.rc \
+    init.sensor_1_0.rc \
+    init_connectivity.rc \
     ueventd.mt6768.rc
 
 # Recovery

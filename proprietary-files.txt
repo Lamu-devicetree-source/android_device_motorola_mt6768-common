@@ -1,5 +1,8 @@
 # Unpinned blobs from motorola/lamu_g/lamu:15/VVTA35.51-137/7eabca:user/release-keys
 
+# Modules
+vendor/etc/init.insmod.mt6768.cfg
+
 # Touch
 vendor/firmware/ILITEK_FW.hex
 vendor/firmware/ILITEK_FW.hex:recovery/root/vendor/firmware/ILITEK_FW.hex
