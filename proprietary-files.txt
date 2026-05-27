@@ -59,6 +59,16 @@ vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 vendor/lib64/vendor.mediatek.hardware.mbrain-V6-ndk.so
 
+# Connectivity
+vendor/bin/wmt_launcher
+vendor/bin/wmt_loader
+vendor/etc/init/init.wmt_drv.rc
+vendor/firmware/connfem.cfg
+vendor/firmware/soc1_0_patch_mcu_1a_1_hdr.bin
+vendor/firmware/soc1_0_ram_bt_1a_1_hdr.bin
+vendor/firmware/soc1_0_ram_mcu_1a_1_hdr.bin
+vendor/firmware/soc1_0_ram_wifi_1a_1_hdr.bin
+
 # Display
 vendor/bin/hw/android.hardware.graphics.allocator-V2-service-mediatek
 vendor/bin/hw/android.hardware.graphics.composer@3.3-service
