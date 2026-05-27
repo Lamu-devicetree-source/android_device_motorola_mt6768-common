@@ -164,6 +164,45 @@ vendor/etc/vintf/manifest/android.hardware.security.keymint-service.trustonic.xm
 vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.trustonic.xml
 vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.trustonic.xml
 
+# Media
+vendor/bin/v3avpud-64b
+vendor/etc/init/v3avpud-64b.rc
+vendor/lib64/libHEVCdec_sa.ca7.android.so
+vendor/lib64/libh264dec_customize.so
+vendor/lib64/libh264dec_sa.ca7.so
+vendor/lib64/libh264dec_sd.ca7.so
+vendor/lib64/libh264dec_se.ca7.so
+vendor/lib64/libhevce_sb.ca7.android.so
+vendor/lib64/libmp4enc_sa.ca7.so
+vendor/lib64/libmvpu_config_data.so
+vendor/lib64/libmvpu_wrapper.so
+vendor/lib64/libswtcc.so
+vendor/lib64/libthha.so
+vendor/lib64/libvcodec_oal.so
+vendor/lib64/libvcodec_utility_v3a.so
+vendor/lib64/libvcodecdrv_v3a.so
+vendor/lib64/libvp8dec_sa.ca7.so
+vendor/lib64/libvp9dec_sa.ca7.so
+vendor/lib64/libvpudv3a_vcodec.so
+vendor/lib64/vpp_hdrmeta_handler_plugin.so
+
+# Media (Codec2)
+vendor/bin/hw/android.hardware.media.c2-mediatek-64b
+vendor/etc/init/android.hardware.media.c2-mediatek-64b.rc
+vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy
+vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy
+vendor/etc/vintf/manifest/manifest_media_c2_default.xml
+vendor/etc/mtk_platform_codecs_config.xml
+vendor/lib64/libcodec2_fsr.so
+vendor/lib64/libcodec2_mtk_c2store.so
+vendor/lib64/libcodec2_mtk_vdec.so
+vendor/lib64/libcodec2_mtk_venc.so
+vendor/lib64/libcodec2_vpp_fa_plugin.so
+vendor/lib64/libcodec2_vpp_mi_plugin.so
+vendor/lib64/libcodec2_vpp_qt_plugin.so
+vendor/lib64/libcodec2_vpp_rs_plugin.so
+vendor/lib64/libformatter.so
+
 # MMS
 vendor/bin/hw/vendor.mediatek.hardware.mms-service
 vendor/etc/init/vendor.mediatek.hardware.mms-service.rc
@@ -230,8 +269,6 @@ vendor/bin/hw/vendor.mediatek.hardware.mmagent-service
 vendor/etc/init/vendor.mediatek.hardware.mmagent-service.rc
 vendor/lib64/mt6768/libmmagent.so;SYMLINK=vendor/lib64/libmmagent.so
 vendor/lib64/libapu_mdw.so
-vendor/lib64/libmvpu_config_data.so
-vendor/lib64/libmvpu_wrapper.so
 vendor/lib64/vendor.mediatek.hardware.mmagent-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so
