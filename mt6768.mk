@@ -203,5 +203,19 @@ $(call soong_config_set_bool,android_hardware_mediatek_usb,audio_accessory_suppo
 PRODUCT_PACKAGES += \
     android.software.verified_boot.prebuilt.xml
 
+# Wi-Fi
+$(call soong_config_set_bool,mediatek_wifi_hal,use_pre_baklava_qpr0_struct,true)
+
+PRODUCT_PACKAGES += \
+    android.hardware.wifi-service \
+    hostapd \
+    libwifi-hal-wrapper \
+    wpa_supplicant
+
+PRODUCT_PACKAGES += \
+    android.hardware.wifi.direct.prebuilt.xml \
+    android.hardware.wifi.passpoint.prebuilt.xml \
+    android.hardware.wifi.prebuilt.xml
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/motorola/mt6768-common/mt6768-common-vendor.mk)
