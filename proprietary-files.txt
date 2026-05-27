@@ -276,10 +276,3 @@ vendor/firmware/tianma_novatek_ts_fw.bin:recovery/root/vendor/firmware/tianma_no
 vendor/firmware/tianma_novatek_ts_mp.bin
 vendor/firmware/tianma_novatek_ts_mp.bin:recovery/root/vendor/firmware/tianma_novatek_ts_mp.bin
 
-# USB
-vendor/bin/hw/android.hardware.usb-aidl-service.mediatekv1.0
-vendor/bin/hw/android.hardware.usb.gadget-aidl-service.mediatekv1.0
-vendor/etc/init/android.hardware.usb-aidl-service.mediatek.rc
-vendor/etc/init/android.hardware.usb.gadget-aidl-service.mediatek.rc
-vendor/etc/vintf/manifest/android.hardware.usb-aidl-service.mediatek.xml
-vendor/etc/vintf/manifest/android.hardware.usb.gadget-aidl-service.mediatek.xml
