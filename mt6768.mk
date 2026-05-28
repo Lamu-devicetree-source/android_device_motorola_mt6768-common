@@ -130,6 +130,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.hardware_keystore_V3.xml
 
+# Overlay
+$(call inherit-product, hardware/mediatek/overlay/mssi.mk)
+
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
 
