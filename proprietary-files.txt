@@ -19,7 +19,6 @@ vendor/lib64/hw/sound_trigger.primary.default.so
 vendor/lib64/hw/vendor.mediatek.hardware.audio-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
 vendor/lib64/android.hardware.audio.core-impl-mediatek.so
-vendor/lib64/android.hardware.bluetooth.audio-impl-mediatek.so
 vendor/lib64/libMtkSpeechEnh.so
 vendor/lib64/lib_iir.so
 vendor/lib64/libaudio_aidl_conversion_common_ndk.so:vendor/lib64/libaudio_aidl_conversion_common_ndk_prebuilt.so;DISABLE_DEPS;FIX_SONAME
@@ -37,8 +36,6 @@ vendor/lib64/libaudiotoolkit_vendor.so
 vendor/lib64/libaurisysdemo.so
 vendor/lib64/libbessound_hd_mtk_vendor.so
 vendor/lib64/libblisrc32_vendor.so
-vendor/lib64/libbluetooth_audio_session_aidl_mtk.so
-vendor/lib64/libbluetooth_audio_session_mediatek.so
 vendor/lib64/libbwc.so
 vendor/lib64/libcvsd_mtk.so
 vendor/lib64/libfsmaudio.so
@@ -54,6 +51,18 @@ vendor/lib64/libspeech_enh_lib.so;FIX_SONAME
 vendor/lib64/libspeechparser_vendor.so
 vendor/lib64/vendor.mediatek.hardware.audio-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.audio@6.1.so
+
+# Bluetooth
+vendor/firmware/BT_FW.cfg
+vendor/lib64/libbluetooth_mtk.so
+vendor/lib64/libbluetooth_mtk_pure.so
+vendor/lib64/libbt-vendor.so
+
+# Bluetooth (AD2P)
+vendor/etc/vintf/manifest/bluetooth_audio.xml:vendor/etc/vintf/manifest/bluetooth_audio_mtk.xml
+vendor/lib64/android.hardware.bluetooth.audio-impl-mediatek.so
+vendor/lib64/libbluetooth_audio_session_aidl_mtk.so
+vendor/lib64/libbluetooth_audio_session_mediatek.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so

@@ -87,6 +87,14 @@ PRODUCT_COPY_FILES += \
 
 $(call soong_config_set_bool,android_hardware_audio,skip_speaker_layout_channel_mask_field,true)
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth-service.mediatek
+
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth_le.prebuilt.xml \
+    android.hardware.bluetooth.prebuilt.xml
+
 # Boot
 PRODUCT_PACKAGES += \
     android.hardware.boot-service.mediatek \
