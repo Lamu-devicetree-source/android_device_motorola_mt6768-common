@@ -165,6 +165,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkpower@1.0.vendor
 
+# Radio
+ENABLE_VENDOR_RIL_SERVICE := true
+
+PRODUCT_PACKAGES += \
+    mdota_symlink
+
+PRODUCT_PACKAGES += \
+    android.hardware.telephony.gsm.prebuilt.xml \
+    android.hardware.telephony.ims.prebuilt.xml
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.mt6768 \

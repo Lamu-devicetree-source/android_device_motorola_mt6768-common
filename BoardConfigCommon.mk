@@ -72,6 +72,18 @@ TARGET_USES_VULKAN := true
 # HIDL
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 
+# ODM
+ODM_MANIFEST_SKUS := \
+    dsds \
+    qsqs \
+    ss \
+    tsts
+
+ODM_MANIFEST_DSDS_FILES := $(COMMON_PATH)/odm/manifest_dsds.xml
+ODM_MANIFEST_QSQS_FILES := $(COMMON_PATH)/odm/manifest_qsqs.xml
+ODM_MANIFEST_SS_FILES   := $(COMMON_PATH)/odm/manifest_ss.xml
+ODM_MANIFEST_TSTS_FILES := $(COMMON_PATH)/odm/manifest_tsts.xml
+
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
