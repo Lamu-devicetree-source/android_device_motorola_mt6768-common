@@ -220,6 +220,10 @@ $(call soong_config_set_bool,android_hardware_mediatek_usb,audio_accessory_suppo
 PRODUCT_PACKAGES += \
     android.software.verified_boot.prebuilt.xml
 
+# VNDK
+PRODUCT_PACKAGES += \
+    vndservicemanager
+
 # Wi-Fi
 $(call soong_config_set_bool,mediatek_wifi_hal,use_pre_baklava_qpr0_struct,true)
 
