@@ -293,6 +293,15 @@ vendor/lib64/libwifinvram.so
 vendor/lib64/libwifinvramdata.so
 vendor/lib64/vendor.mediatek.hardware.nvram-V1-ndk.so
 
+# Sensors
+vendor/lib64/hw/sensors.mt6768.so
+vendor/lib64/libmemsic.so
+vendor/lib64/libQstAlgo.so
+vendor/lib64/libsensor_custom.so
+
+# Sensors firmware
+vendor/firmware/remoteproc_scp
+
 # TEE
 vendor/bin/hw/vendor.trustonic.tee-service
 vendor/bin/mcDriverDaemon
