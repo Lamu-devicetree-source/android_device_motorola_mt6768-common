@@ -117,7 +117,6 @@ vendor/lib64/libDefaultFpsActor.so
 vendor/lib64/libFrameRecord.so
 vendor/lib64/libNoFpsActor.so
 vendor/lib64/libaal_cust.so
-vendor/lib64/libaal_key.so
 vendor/lib64/libaal_sec.so
 vendor/lib64/libaalservice.so
 vendor/lib64/libarm_egl_properties_sysprop.so
