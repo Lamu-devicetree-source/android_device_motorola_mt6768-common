@@ -116,6 +116,7 @@ TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 
 # SEPolicy
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
+BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
 # Verified Boot
 BOARD_AVB_ENABLE := true

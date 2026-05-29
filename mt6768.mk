@@ -220,6 +220,9 @@ $(call soong_config_set_bool,android_hardware_mediatek_usb,audio_accessory_suppo
 PRODUCT_PACKAGES += \
     android.software.verified_boot.prebuilt.xml
 
+# Vibrator
+$(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.mk)
+
 # VNDK
 PRODUCT_PACKAGES += \
     vndservicemanager
