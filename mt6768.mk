@@ -125,6 +125,10 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.fingerprint.prebuilt.xml
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek \
