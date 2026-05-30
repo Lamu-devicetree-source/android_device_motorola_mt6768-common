@@ -213,7 +213,7 @@ vendor/lib64/libwo.so
 vendor/lib64/vendor.mediatek.hardware.clientapi-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.rcs-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.rcs@2.0.so
-vendor/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so
+vendor/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so;MODULE_SUFFIX=_vendor
 
 # Ladder
 vendor/lib64/libladder.so
