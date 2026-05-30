@@ -393,6 +393,11 @@ vendor/lib64/libmtk_bsg.so
 vendor/lib64/vendor.trustonic.tee-V1-ndk.so
 vendor/lib64/vendor.trustonic.tui-V1-ndk.so
 
+# Thermal
+vendor/etc/.tp/thermal.conf
+vendor/etc/.tp/thermal.off.conf
+vendor/lib64/libmtcloader.so
+
 # Touch
 vendor/firmware/ILITEK_FW.hex
 vendor/firmware/ILITEK_FW.hex:recovery/root/vendor/firmware/ILITEK_FW.hex
