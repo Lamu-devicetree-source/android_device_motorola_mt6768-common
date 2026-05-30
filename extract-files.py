@@ -39,6 +39,8 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('av-audio-types-aidl-V1-ndk.so', 'av-audio-types-aidl-V3-ndk.so'),
     'system_ext/lib64/libimsma.so': blob_fixup()
         .replace_needed('libsink.so', 'libsink-mtk.so'),
+    'system_ext/priv-app/ImsService/ImsService.apk': blob_fixup()
+        .apktool_patch('blob-patches/ImsService'),
     (
         'vendor/bin/hw/android.hardware.audio.service-aidl.mediatek',
         'vendor/lib64/hw/android.hardware.soundtrigger3-impl.so',
