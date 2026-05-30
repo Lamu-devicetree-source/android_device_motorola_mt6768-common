@@ -458,6 +458,11 @@ vendor/lib64/libsensor_custom.so
 # Sensors firmware
 vendor/firmware/remoteproc_scp
 
+# Tether Offload
+vendor/bin/hw/tetheroffloadservice
+vendor/etc/init/android.hardware.tetheroffload-V1-service.rc
+vendor/etc/vintf/manifest/android.hardware.tetheroffload-V1-service.xml
+
 # TEE
 vendor/bin/hw/vendor.trustonic.tee-service
 vendor/bin/mcDriverDaemon
