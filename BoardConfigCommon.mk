@@ -166,6 +166,7 @@ BOARD_AVB_SYSTEM_DLKM_ADD_HASHTREE_FOOTER_ARGS += --hash_algorithm sha256
 
 # VINTF
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    device/motorola/mt6768-common/framework_compatibility_matrix.xml \
     hardware/mediatek/vintf/mediatek_framework_compatibility_matrix_aidl.xml \
     hardware/mediatek/vintf/mediatek_framework_compatibility_matrix.xml
 
