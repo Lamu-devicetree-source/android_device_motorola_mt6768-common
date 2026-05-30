@@ -175,8 +175,15 @@ PRODUCT_PACKAGES += \
     mdota_symlink
 
 PRODUCT_PACKAGES += \
+    android.software.ipsec_tunnels.prebuilt.xml
+
+PRODUCT_PACKAGES += \
     android.hardware.telephony.gsm.prebuilt.xml \
     android.hardware.telephony.ims.prebuilt.xml
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.mediatek.ims.xml \
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-com.mediatek.telephony.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.mediatek.telephony.xml
 
 # Ramdisk
 PRODUCT_PACKAGES += \

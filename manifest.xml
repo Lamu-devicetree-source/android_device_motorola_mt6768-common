@@ -154,6 +154,10 @@
         <fqname>IPictureQuality_AIDL/default</fqname>
     </hal>
     <hal format="aidl">
+        <name>vendor.mediatek.hardware.videotelephony</name>
+        <fqname>IVideoTelephony/default</fqname>
+    </hal>
+    <hal format="aidl">
         <name>vendor.trustonic.tee</name>
         <fqname>ITee/default</fqname>
     </hal>
