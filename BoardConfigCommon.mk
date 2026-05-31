@@ -77,12 +77,20 @@ ODM_MANIFEST_SKUS := \
     dsds \
     qsqs \
     ss \
-    tsts
+    tsts \
+    nfc_dsds \
+    nfc_ss \
+    nonfc_dsds \
+    nonfc_ss
 
-ODM_MANIFEST_DSDS_FILES := $(COMMON_PATH)/odm/manifest_dsds.xml
-ODM_MANIFEST_QSQS_FILES := $(COMMON_PATH)/odm/manifest_qsqs.xml
-ODM_MANIFEST_SS_FILES   := $(COMMON_PATH)/odm/manifest_ss.xml
-ODM_MANIFEST_TSTS_FILES := $(COMMON_PATH)/odm/manifest_tsts.xml
+ODM_MANIFEST_DSDS_FILES       := $(COMMON_PATH)/odm/manifest_dsds.xml
+ODM_MANIFEST_QSQS_FILES       := $(COMMON_PATH)/odm/manifest_qsqs.xml
+ODM_MANIFEST_SS_FILES         := $(COMMON_PATH)/odm/manifest_ss.xml
+ODM_MANIFEST_TSTS_FILES       := $(COMMON_PATH)/odm/manifest_tsts.xml
+ODM_MANIFEST_NFC_DSDS_FILES   := $(COMMON_PATH)/odm/manifest_dsds.xml
+ODM_MANIFEST_NFC_SS_FILES     := $(COMMON_PATH)/odm/manifest_ss.xml
+ODM_MANIFEST_NONFC_DSDS_FILES := $(COMMON_PATH)/odm/manifest_dsds.xml $(COMMON_PATH)/odm/manifest_nonfc.xml
+ODM_MANIFEST_NONFC_SS_FILES   := $(COMMON_PATH)/odm/manifest_ss.xml $(COMMON_PATH)/odm/manifest_nonfc.xml
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)

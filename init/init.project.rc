@@ -9,7 +9,15 @@ on init
     mkdir /mnt/media_rw/usbotg 0700 media_rw media_rw
     mkdir /storage/usbotg 0700 root root
 
+on fs
+    chmod 0660 /dev/nxp-nci
+    chown nfc nfc /dev/nxp-nci
+
 on post-fs-data
+    mkdir /data/vendor 0777 nfc nfc
+    mkdir /data/vendor/nfc 0777 nfc nfc
+    mkdir /data/vendor/nfc/param 0777 nfc nfc
+    mkdir /data/vendor/nfc/debug 0755 nfc nfc
 
 #Camera
     chmod 0660 /dev/MAINAF
@@ -39,12 +47,6 @@ on post-fs-data
 
     chmod 0660 /dev/spm
     chown system system /dev/spm
-
-    #yangyong add for NXP NFC begin
-    #chmod 066 /dev/nxp-nci
-    chmod 0777 /dev/nxp-nci
-    chown nfc nfc /dev/nxp-nci
-    #yangyong add for NXP NFC end
 
 #feiyu.zhu modify for EKLAMU-1407
     chown system system /sys/devices/platform/1100a000.spi0/spi_master/spi0/spi0.0/irq
@@ -140,3 +142,22 @@ service hardware_revisions /vendor/bin/hardware_revisions.sh
     user system
     group system system
     oneshot
+
+service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.nxp
+    class early_hal
+    user nfc
+    group nfc drmrpc system
+    override
+    disabled
+
+on boot && property:ro.boot.product.hardware.sku=nfc_ss
+    enable vendor.nfc_hal_service
+
+on boot && property:ro.boot.product.hardware.sku=nfc_dsds
+    enable vendor.nfc_hal_service
+
+on boot && property:ro.boot.product.hardware.sku=nonfc_ss
+    stop mtk_secure_element_hal_service
+
+on boot && property:ro.boot.product.hardware.sku=nonfc_dsds
+    stop mtk_secure_element_hal_service
