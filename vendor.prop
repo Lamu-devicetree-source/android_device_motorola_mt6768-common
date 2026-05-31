@@ -3,6 +3,11 @@ audio.deep_buffer.media=true
 ro.config.vc_call_vol_default=6
 ro.config.vc_call_vol_steps=8
 
+# Camera
+camera.disable_zsl_mode=1
+vendor.camera.mdp.cz.enable=1
+vendor.camera.mdp.dre.enable=0
+
 # Connectivity
 persist.vendor.connsys.chipid=-1
 persist.vendor.connsys.dynamic.dump=0
