@@ -560,6 +560,12 @@ vendor/firmware/tianma_novatek_ts_fw.bin:recovery/root/vendor/firmware/tianma_no
 vendor/firmware/tianma_novatek_ts_mp.bin
 vendor/firmware/tianma_novatek_ts_mp.bin:recovery/root/vendor/firmware/tianma_novatek_ts_mp.bin
 
+# Widevine
+vendor/apex/com.google.android.widevine.nonupdatable.apex
+vendor/lib64/libTEECommon.so
+vendor/lib64/liboemcrypto.so
+vendor/lib64/liburee_meta_drmkeyinstall.so
+
 # Wi-Fi
 vendor/bin/wlan_assistant
 vendor/etc/init/init.wlan_drv.rc

@@ -124,6 +124,10 @@ PRODUCT_PACKAGES += \
     android.software.opengles.deqp.level-2024-03-01.prebuilt.xml \
     android.software.vulkan.deqp.level-2024-03-01.prebuilt.xml
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm-service.clearkey
+
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
