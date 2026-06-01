@@ -220,6 +220,7 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    fstab.enableswap \
     fstab.mt6768 \
     fstab.mt6768.vendor_ramdisk \
     init.cgroup.rc \
