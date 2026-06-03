@@ -54,6 +54,8 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libsilkybrightnesscore.so'
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+    'vendor/lib64/libutinterface_custom_md.so': blob_fixup()
+        .add_needed('libutinterface_md.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(

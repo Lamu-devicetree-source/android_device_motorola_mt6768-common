@@ -205,7 +205,7 @@ vendor/etc/init/ipsec_mon.rc
 vendor/etc/init/volte_clientapi_ua.rc
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony-impl.so
 vendor/lib64/libcurl_xcap_md.so
-vendor/lib64/libutinterface_custom_md.so
+vendor/lib64/libutinterface_custom_md.so;DISABLE_DEPS
 vendor/lib64/libutinterface_md.so
 vendor/lib64/libvolte_core_shr.so
 vendor/lib64/libvolte_xdmc_shr.so
