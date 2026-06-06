@@ -205,6 +205,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkpower@1.0.vendor
 
+# Properties
+include hardware/mediatek/configs/properties/vendor_logtag.mk
+
 # Radio
 ENABLE_VENDOR_RIL_SERVICE := true
 
