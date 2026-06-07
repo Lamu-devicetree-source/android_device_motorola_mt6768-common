@@ -11,6 +11,13 @@ genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt635
 genfscon sysfs /devices/platform/extcon_usb/extcon/extcon0/cable.0/name                                                                u:object_r:sysfs_extcon:s0
 genfscon sysfs /devices/platform/extcon_usb/extcon/extcon0/cable.1/name                                                                u:object_r:sysfs_extcon:s0
 
+# Fingerprint
+genfscon sysfs /devices/platform/1100a000.spi0/spi_master/spi0/spi0.0/clk_enable                                                       u:object_r:vendor_sysfs_fingerprint:s0
+genfscon sysfs /devices/platform/1100a000.spi0/spi_master/spi0/spi0.0/compatible_all                                                   u:object_r:vendor_sysfs_fingerprint:s0
+genfscon sysfs /devices/platform/1100a000.spi0/spi_master/spi0/spi0.0/fpc_sys_ctl                                                      u:object_r:vendor_sysfs_fingerprint:s0
+genfscon sysfs /devices/platform/1100a000.spi0/spi_master/spi0/spi0.0/hw_reset                                                         u:object_r:vendor_sysfs_fingerprint:s0
+genfscon sysfs /devices/platform/1100a000.spi0/spi_master/spi0/spi0.0/irq                                                              u:object_r:vendor_sysfs_fingerprint:s0
+
 # GPU
 genfscon sysfs /devices/platform/13040000.mali/js_ctx_scheduling_mode                                                                  u:object_r:vendor_sysfs_gpu:s0
 genfscon sysfs /devices/platform/13040000.mali/js_scheduling_period                                                                    u:object_r:vendor_sysfs_gpu:s0
