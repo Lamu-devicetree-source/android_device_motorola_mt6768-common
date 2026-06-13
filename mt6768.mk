@@ -165,6 +165,7 @@ $(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 PRODUCT_PACKAGES += \
     CarrierConfigCommon \
     FrameworksResOverlayCommon \
+    LineageSystemUIOverlayCommon \
     NcmTetheringOverlay
 
 # NFC
