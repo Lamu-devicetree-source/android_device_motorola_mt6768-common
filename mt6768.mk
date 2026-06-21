@@ -260,7 +260,11 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-subhal-impl-1.0
 
 PRODUCT_PACKAGES += \
+    sensors.dynamic_sensor_hal
+
+PRODUCT_PACKAGES += \
     android.hardware.sensor.accelerometer.prebuilt.xml \
+    android.hardware.sensor.dynamic.head_tracker.prebuilt.xml \
     android.hardware.sensor.light.prebuilt.xml \
     android.hardware.sensor.proximity.prebuilt.xml \
     android.hardware.sensor.stepcounter.prebuilt.xml \
