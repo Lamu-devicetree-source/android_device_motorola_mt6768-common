@@ -24,5 +24,8 @@ bluetooth.profile.pbap.server.enabled=true
 bluetooth.profile.sap.server.enabled=true
 bluetooth.profile.vcp.controller.enabled=true
 
+# FSCK
+persist.fsck.disable_linear_lookup=on
+
 # RKPD
 remote_provisioning.hostname=remoteprovisioning.googleapis.com
