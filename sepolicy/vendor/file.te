@@ -1,3 +1,6 @@
+# Audio
+type vendor_sysfs_audio, fs_type, sysfs_type;
+
 # Fingerprint
 type vendor_sysfs_fingerprint, fs_type, sysfs_type;
 
