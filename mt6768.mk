@@ -138,6 +138,10 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_PACKAGES += \
     fastbootd
 
+# FM Radio
+PRODUCT_PACKAGES += \
+    FMRadio
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.fingerprint.prebuilt.xml

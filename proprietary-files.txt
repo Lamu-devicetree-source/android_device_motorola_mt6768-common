@@ -148,6 +148,12 @@ vendor/lib64/vendor.mediatek.hardware.pq_aidl-V2-ndk.so
 vendor/lib64/vendor.mediatek.hardware.pq_aidl-V4-ndk.so
 vendor/lib64/vendor.mediatek.hardware.pq_aidl-V7-ndk.so
 
+# FM Radio
+vendor/etc/init/init.fmradio_drv.rc
+vendor/firmware/fm_cust.cfg
+vendor/firmware/mt6631_fm_v1_coeff.bin
+vendor/firmware/mt6631_fm_v1_patch.bin
+
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint-service.example
 vendor/bin/hw/android.hardware.biometrics.fingerprint-service.gf

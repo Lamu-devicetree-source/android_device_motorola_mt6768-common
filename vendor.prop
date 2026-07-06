@@ -153,6 +153,10 @@ drm.service.enabled=true
 persist.vendor.mtk_rpmb_disable=1
 ro.netflix.bsp_rev=MTK6768-19054-1
 
+# FM Radio
+persist.vendor.connsys.fm_chipid=mt6631
+ro.vendor.fm.platform=mt6631
+
 # GNSS
 ro.vendor.mtk_agps_app=1
 ro.vendor.mtk_gps_support=1
